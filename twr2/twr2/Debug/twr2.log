@@ -1,0 +1,127 @@
+﻿Build started 10.04.2016 20:27:38.
+     1>Project "D:\Workspace\cpp\twr2\twr2\twr2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\twr2.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\twr2.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cslTbl.cpp lstAurs.cpp landElements.cpp twr2.cpp twrTbl.cpp
+         twrTbl.cpp
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(21): warning C4812: obsolete declaration style: please use 'vector<_Type>::vector' instead
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<_Type>::~vector' instead
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(21): warning C4812: obsolete declaration style: please use 'vector<twrLvl>::vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(22) : while compiling class template member function 'vector<twrLvl>::vector(void)'
+                 d:\workspace\cpp\twr2\twr2\twrtbl.cpp(7) : see reference to function template instantiation 'vector<twrLvl>::vector(void)' being compiled
+                 d:\workspace\cpp\twr2\twr2\twrtbl.h(28) : see reference to class template instantiation 'vector<twrLvl>' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<twrLvl>::~vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<twrLvl>::~vector(void)'
+                 d:\workspace\cpp\twr2\twr2\twrtbl.cpp(7) : see reference to function template instantiation 'vector<twrLvl>::~vector(void)' being compiled
+         twr2.cpp
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(21): warning C4812: obsolete declaration style: please use 'vector<_Type>::vector' instead
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<_Type>::~vector' instead
+     1>d:\workspace\cpp\twr2\twr2\twr2.cpp(340): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\workspace\cpp\twr2\twr2\twr2.cpp(343): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\workspace\cpp\twr2\twr2\twr2.cpp(346): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\workspace\cpp\twr2\twr2\twr2.cpp(349): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\workspace\cpp\twr2\twr2\twr2.cpp(352): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\workspace\cpp\twr2\twr2\twr2.cpp(359): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\workspace\cpp\twr2\twr2\twr2.cpp(362): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\workspace\cpp\twr2\twr2\twr2.cpp(365): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\workspace\cpp\twr2\twr2\twr2.cpp(368): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\workspace\cpp\twr2\twr2\twr2.cpp(371): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<twrLvl>::~vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<twrLvl>::~vector(void)'
+                 d:\workspace\cpp\twr2\twr2\twr2.cpp(401) : see reference to function template instantiation 'vector<twrLvl>::~vector(void)' being compiled
+                 d:\workspace\cpp\twr2\twr2\twrtbl.h(28) : see reference to class template instantiation 'vector<twrLvl>' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<cslLvl>::~vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<cslLvl>::~vector(void)'
+                 d:\workspace\cpp\twr2\twr2\twr2.cpp(401) : see reference to function template instantiation 'vector<cslLvl>::~vector(void)' being compiled
+                 d:\workspace\cpp\twr2\twr2\csltbl.h(28) : see reference to class template instantiation 'vector<cslLvl>' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<Square *>::~vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<Square *>::~vector(void)'
+                 d:\workspace\cpp\twr2\twr2\twr2.cpp(401) : see reference to function template instantiation 'vector<Square *>::~vector(void)' being compiled
+                 d:\workspace\cpp\twr2\twr2\landelements.h(264) : see reference to class template instantiation 'vector<Square *>' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<Enemy *>::~vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<Enemy *>::~vector(void)'
+                 d:\workspace\cpp\twr2\twr2\twr2.cpp(401) : see reference to function template instantiation 'vector<Enemy *>::~vector(void)' being compiled
+                 d:\workspace\cpp\twr2\twr2\landelements.h(265) : see reference to class template instantiation 'vector<Enemy *>' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<vector<lstAurs *>>::~vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<vector<lstAurs *>>::~vector(void)'
+                 d:\workspace\cpp\twr2\twr2\twr2.cpp(401) : see reference to function template instantiation 'vector<vector<lstAurs *>>::~vector(void)' being compiled
+                 d:\workspace\cpp\twr2\twr2\landelements.h(266) : see reference to class template instantiation 'vector<vector<lstAurs *>>' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<lstAurs *>::~vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<lstAurs *>::~vector(void)'
+                 c:\program files\microsoft visual studio 12.0\vc\include\xmemory0(611) : see reference to function template instantiation 'vector<lstAurs *>::~vector(void)' being compiled
+                 d:\workspace\cpp\twr2\twr2\myvector.h(30) : see reference to class template instantiation 'vector<lstAurs *>' being compiled
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<vector<lstAurs *>>::~vector(void)'
+                 d:\workspace\cpp\twr2\twr2\twr2.cpp(401) : see reference to function template instantiation 'vector<vector<lstAurs *>>::~vector(void)' being compiled
+         landElements.cpp
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(21): warning C4812: obsolete declaration style: please use 'vector<_Type>::vector' instead
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<_Type>::~vector' instead
+     1>d:\workspace\cpp\twr2\twr2\landelements.cpp(10): warning C4101: 'res' : unreferenced local variable
+     1>d:\workspace\cpp\twr2\twr2\landelements.cpp(679): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\workspace\cpp\twr2\twr2\landelements.cpp(725): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\workspace\cpp\twr2\twr2\landelements.cpp(862): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(21): warning C4812: obsolete declaration style: please use 'vector<Square *>::vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(22) : while compiling class template member function 'vector<Square *>::vector(void)'
+                 d:\workspace\cpp\twr2\twr2\landelements.cpp(1266) : see reference to function template instantiation 'vector<Square *>::vector(void)' being compiled
+                 d:\workspace\cpp\twr2\twr2\landelements.h(264) : see reference to class template instantiation 'vector<Square *>' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<Square *>::~vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<Square *>::~vector(void)'
+                 d:\workspace\cpp\twr2\twr2\landelements.cpp(1266) : see reference to function template instantiation 'vector<Square *>::~vector(void)' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(21): warning C4812: obsolete declaration style: please use 'vector<Enemy *>::vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(22) : while compiling class template member function 'vector<Enemy *>::vector(void)'
+                 d:\workspace\cpp\twr2\twr2\landelements.cpp(1266) : see reference to function template instantiation 'vector<Enemy *>::vector(void)' being compiled
+                 d:\workspace\cpp\twr2\twr2\landelements.h(265) : see reference to class template instantiation 'vector<Enemy *>' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<Enemy *>::~vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<Enemy *>::~vector(void)'
+                 d:\workspace\cpp\twr2\twr2\landelements.cpp(1266) : see reference to function template instantiation 'vector<Enemy *>::~vector(void)' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(21): warning C4812: obsolete declaration style: please use 'vector<vector<lstAurs *>>::vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(22) : while compiling class template member function 'vector<vector<lstAurs *>>::vector(void)'
+                 d:\workspace\cpp\twr2\twr2\landelements.cpp(1266) : see reference to function template instantiation 'vector<vector<lstAurs *>>::vector(void)' being compiled
+                 d:\workspace\cpp\twr2\twr2\landelements.h(266) : see reference to class template instantiation 'vector<vector<lstAurs *>>' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<vector<lstAurs *>>::~vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<vector<lstAurs *>>::~vector(void)'
+                 d:\workspace\cpp\twr2\twr2\landelements.cpp(1266) : see reference to function template instantiation 'vector<vector<lstAurs *>>::~vector(void)' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(21): warning C4812: obsolete declaration style: please use 'vector<lstAurs *>::vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(22) : while compiling class template member function 'vector<lstAurs *>::vector(void)'
+                 d:\workspace\cpp\twr2\twr2\myvector.h(38) : see reference to function template instantiation 'vector<lstAurs *>::vector(void)' being compiled
+                 d:\workspace\cpp\twr2\twr2\myvector.h(35) : while compiling class template member function 'int vector<vector<lstAurs *>>::resize(int)'
+                 d:\workspace\cpp\twr2\twr2\landelements.cpp(1271) : see reference to function template instantiation 'int vector<vector<lstAurs *>>::resize(int)' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<lstAurs *>::~vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<lstAurs *>::~vector(void)'
+                 d:\workspace\cpp\twr2\twr2\myvector.h(38) : see reference to function template instantiation 'vector<lstAurs *>::~vector(void)' being compiled
+         lstAurs.cpp
+         cslTbl.cpp
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(21): warning C4812: obsolete declaration style: please use 'vector<_Type>::vector' instead
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<_Type>::~vector' instead
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(21): warning C4812: obsolete declaration style: please use 'vector<cslLvl>::vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(22) : while compiling class template member function 'vector<cslLvl>::vector(void)'
+                 d:\workspace\cpp\twr2\twr2\csltbl.cpp(6) : see reference to function template instantiation 'vector<cslLvl>::vector(void)' being compiled
+                 d:\workspace\cpp\twr2\twr2\csltbl.h(28) : see reference to class template instantiation 'vector<cslLvl>' being compiled
+     1>d:\workspace\cpp\twr2\twr2\myvector.h(28): warning C4812: obsolete declaration style: please use 'vector<cslLvl>::~vector' instead
+                 d:\workspace\cpp\twr2\twr2\myvector.h(29) : while compiling class template member function 'vector<cslLvl>::~vector(void)'
+                 d:\workspace\cpp\twr2\twr2\csltbl.cpp(6) : see reference to function template instantiation 'vector<cslLvl>::~vector(void)' being compiled
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspace\cpp\twr2\Debug\twr2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Workspace\cpp\twr2\Debug\twr2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Workspace\cpp\twr2\Debug\twr2.lib" /MACHINE:X86 Debug\cslTbl.obj
+         Debug\lstAurs.obj
+         Debug\landElements.obj
+         Debug\stdafx.obj
+         Debug\twr2.obj
+         Debug\twrTbl.obj
+         twr2.vcxproj -> D:\Workspace\cpp\twr2\Debug\twr2.exe
+     1>Done Building Project "D:\Workspace\cpp\twr2\twr2\twr2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.22
